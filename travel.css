@@ -14,41 +14,101 @@ body{
 .first-page{
     height: 100vh;
 }
+
 .page1 {
     max-width: 350px;
     margin-top: 140px;
 }
 
-h1{
-    font-size: 40px;
-    margin-left: 18px;
-    margin-top: 100px;
-    font-style: italic;
-    color: rgb(16, 172, 164);
+.container{
+    padding: 0 7%;
 }
 
-p{
-    font-size:  20px;
-    text-align: left;
-    margin-left: 18px;
-    margin-top: 10px;
-    color: rgb(172, 136, 16);
+ h1{
+    font-size: 4vw;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20%;
+    color: rgb(14, 65, 168);
 }
 
-nav{
-    height: 70px; 
+.search-box{
+    background:rgb(224, 226, 231);
+    width: 70%;
+    margin: 35px auto;
+    padding: 7px 11px 7px 30px;
+    border-radius: 50px;
 }
-
-button {
-    margin-top: 30px;
-    margin-left: 18px;
-    padding: 10px;
-    color: rgb(233, 235, 243);
-    border-radius: 10px;
-    outline: 0;
-    border: none;
-    background: linear-gradient(blue, orange);
-    height: 50px;
-    width: 50;
+ 
+.search-box form{
+    display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
+
+.search-box form label{
+    color: rgb(14, 65, 168);
+}
+
+.search-box form input{
+    display: block;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: rgb(64, 87, 133);
+}
+
+.search-box form button{
+    background : #fff;
+    color: rgb(88, 119, 179);
+    padding: 8px 20px;
+    margin-right: 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid blue;
+}
+
+.location{
+flex: 1;
+}
+
+.search-box form label{
+    font-weight: 500px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7px;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 30px;
+    border-radius: 25px;
+}
+
+.nav-links li{
+list-style: none;
+display: inline-block;
+margin: 10px 10px;
+}
+
+.nav-links li a {
+text-decoration: none;
+color: rgb(88, 119, 179);
+}
+
+.register-btn{
+    background : #fff;
+    color: rgb(88, 119, 179);
+    padding: 8px 20px;
+    margin-right: 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid blue;
+}
+
