@@ -112,10 +112,42 @@ nav{
     text-decoration: none;
     font-size: 14px;
     border: 1px solid blue;
+    cursor: pointer;
 } 
 
+.line{
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    display: inline;
+}
+
+.line-1 {
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+    background: rgb(14, 65, 168);
+    display: inline-block;
+}
+
+.line-2 {
+    width: 20px;
+    height: 1px;
+    background: rgb(14, 65, 168);
+    display: inline-block;
+}
+
+.line-3 {
+    width: 60px;
+    height: 1px;
+    background: rgb(14, 65, 168);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
 .container-1{
-    padding-top: 100px;
+    padding-top: 30px;
     padding-left: 15px;
 }
 
@@ -135,7 +167,7 @@ nav{
 
  .place div img{
     display: inline-block;
-    width: 200px;
+    width: 90%;
     height: 200px;
     border-radius: 25px;
     border: 1px solid rgb(128, 144, 177);
@@ -148,13 +180,16 @@ nav{
     font-weight: 300;
     display: flex;
     cursor: pointer;
+    justify-content: center;
  }
 
  .p-info{
     color: gray;
     font-size: 15px;
     font-style: italic;
+    font-weight: 500;
+    display: flex;
     margin-bottom: 15px;
     cursor: pointer;
+    justify-content: center;
  }
-
