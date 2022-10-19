@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    background-image: url(travelimage.webp);
+    background-image: url(bg.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -155,7 +155,10 @@ nav{
     margin: 50px 0 20px;
     font-size: 40px;
     font-weight: 500;
-    color: rgb(14, 65, 168)
+    color: rgb(14, 65, 168);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 400px;
+    cursor: pointer;
  }
 
  .place{
@@ -169,7 +172,7 @@ nav{
     display: inline-block;
     width: 90%;
     height: 200px;
-    border-radius: 25px;
+    border-radius: 80px;
     border: 1px solid rgb(128, 144, 177);
     cursor: pointer;
  }
@@ -193,3 +196,4 @@ nav{
     cursor: pointer;
     justify-content: center;
  }
+
