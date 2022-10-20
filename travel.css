@@ -1,3 +1,5 @@
+
+
 *{
     padding : 0;
     margin: 0;
@@ -22,7 +24,7 @@ body{
     font-weight: 500;
     text-align: center;
     padding-top: 20%;
-    color: rgb(14, 65, 168);
+    color: rgb(33, 14, 116);
 }
 
 .search-box{
@@ -152,7 +154,8 @@ nav{
 }
 
 .place-title{
-    margin: 50px 0 20px;
+    margin-top: 100px;
+    margin-bottom: 40px;
     font-size: 40px;
     font-weight: 500;
     color: rgb(14, 65, 168);
@@ -170,9 +173,9 @@ nav{
 
  .place div img{
     display: inline-block;
-    width: 90%;
+    width: 100%;
     height: 200px;
-    border-radius: 80px;
+    border-radius: 50px;
     border: 1px solid rgb(128, 144, 177);
     cursor: pointer;
  }
@@ -197,3 +200,107 @@ nav{
     justify-content: center;
  }
 
+ .trending-places{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     grid-gap: 30px;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-left: 20px;
+     margin-right: 20px;
+ }
+
+ .trending-places div img{
+     display: inline-block;
+     width: 100%;
+     height: 200px;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+
+.trending-places h3{
+    color: rgb(14, 65, 168);
+    margin-top: 5px;
+    font-style: bold;
+    font-weight: 600;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+ }
+
+ .earn-money{
+    margin: 20px;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, #87cfcf, transparent), url(couch.webp);
+    background-size: cover;
+    height: 190px;
+    background-position: center;
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(6, 44, 119);
+ }
+
+ .earn-money h3{
+    font-size: 3vw;
+    line-height: 5.3vw;
+    font-weight: 600;
+ }
+
+ .earn-money p{
+    font-size: 20px;
+    margin: 10px 0;
+ }
+
+ .earn-btn{
+    background: #20a1a1;
+    color: #e3e7eb;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #205ca1;
+ }
+
+.stories{
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     grid-gap: 30px;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-left: 20px;
+     margin-right: 20px;
+}
+
+.stories div img{
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.stories div{
+    position: relative;
+    text-align: center;
+}
+
+.stories p{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(118, 95, 223);
+    font-size: 26pxS;
+}
+
+.travel-stories {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(14, 65, 168);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 400px;
+    cursor: pointer;
+}
