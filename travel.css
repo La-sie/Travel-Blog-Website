@@ -103,6 +103,23 @@ nav{
     margin-right: 25px;
 }
 
+.active-link{
+    position: relative;
+}
+
+.active-link::after{
+    content: "";
+    background: rgb(57, 88, 150);
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    bottom: -12px;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+
 .register-btn{
     background : #fff;
     color: rgb(88, 119, 179);
@@ -289,7 +306,7 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(118, 95, 223);
-    font-size: 26pxS;
+    font-size: 26px;
 }
 
 .travel-stories {
@@ -297,8 +314,59 @@ nav{
     margin-bottom: 40px;
     font-size: 40px;
     font-weight: 500;
-    color: rgb(14, 65, 168);
-    font-family: 'Times New Roman', Times, serif;
+    color: rgb(16, 65, 168);
+    font-family: 'Times New Roman', 'Times', 'serif';
     margin-left: 400px;
     cursor: pointer;
+}
+
+.money-btn{
+    text-decoration: none;
+    background: rgb(16, 65, 168);
+    color: white;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.about-us{
+    text-align: center;
+    margin: 70px 0;
+    color:#999;
+    font-size: 10px;
+}
+
+.about-us h2{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.footer {
+    margin: 80px 0 10px;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.footer p{
+    padding-bottom: 20px;
+}
+
+hr{
+    background: rgb(14, 65, 168);
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
 }
