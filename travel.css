@@ -80,9 +80,7 @@ nav{
     z-index: 999;
     position: sticky;
     top: 0;
-    top: 0
 }
-
 
 .logo {
     width: 60px;
@@ -305,7 +303,7 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(118, 95, 223);
+    color: rgb(10, 27, 27);
     font-size: 26px;
 }
 
@@ -361,6 +359,7 @@ nav{
 
 .footer p{
     padding-bottom: 20px;
+    color: #999;
 }
 
 hr{
@@ -369,4 +368,107 @@ hr{
     width: 100%;
     border: 0;
     margin: 20px 0;
+}
+
+nav .fa-bars{
+display: none
+}
+
+@media only screen and (max-width : 700px){
+  
+.logo {
+    position: fixed;
+    top: 4%;
+    left: 6%;
+}
+
+nav .fa-bars{
+    display: block;
+    position: fixed;
+    top: 4%;
+    right: 7%;
+    color: #205ca1;
+    font-size: 28px;
+    cursor:pointer;
+}
+
+.active-link::after{
+    left: -40px;
+    bottom: 50%;
+    transform: translate(0, 50%);
+}
+
+.hide-menu{
+    max-height: 300px;
+}
+
+h1{
+    padding-top: 50px;
+    font-size: 7vw;
+}
+.search-box{
+    width: 50%;
+    height: 50%;
+    margin: 30px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.search-box form {
+    display: block;
+}
+
+.search-box form input{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search-box form button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-top: 5px;
+    transform: translate(-50%, 50%);
+}
+
+.place-title{
+    font-size: 5vw;
+    margin: 25px;
+}
+
+.travel-stories{
+    font-size: 5vw;
+    margin: 25px;
+}
+
+.earn-money{
+    padding: 15% 5%;
+}
+
+.earn-money h3{
+    font-size: 7vw;
+    line-height: 8vw;
+}
+
+.earn-money p {
+    font-size: 14px;
+}
+
+.earn-btn{
+    padding: 6px 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.stories p{
+    font-size: 20px;
+}
+
+.about-us{
+    font-size: 10px;
+    padding-bottom: 5px;
+}
 }
